@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rotation3d {
+  height: 6rem;
+  width: 6rem;
+  background: #eaeaed;
+  float: left;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  background-color:transparent;
+  padding: 0.5rem;
+ margin-left: 72rem;
+ margin-top: 10rem;
+}
+
+.cercle-1 {
+  height: 6rem;
+  width: 6rem;
+  background: white;
+  color: white;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  text-align: center;
+  text-decoration: none;
+ 
+}

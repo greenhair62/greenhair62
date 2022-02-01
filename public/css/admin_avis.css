@@ -1,0 +1,330 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+}
+.cercle-1 {
+  display: none;
+}
+
+
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: rgb(224, 224, 224);
+}
+.container h1 {
+  height: 10rem;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin-top: -5rem;
+}
+.main-category-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-flow: row wrap;
+}
+.category-container {
+  padding: 1rem;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+  /* flex-direction: column; */
+}
+.category-container .content {
+  padding: 2rem 2rem;
+  margin: 0;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 10px #777;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+}
+.category-container li {
+  text-transform: uppercase;
+  margin: 0.5rem;
+  /* font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700; */
+}
+.category-container li a {
+  color: #695f5f;
+  text-decoration: none;
+}
+
+.category-container h2 {
+  height: auto;
+  /* width: 30rem; */
+  font-size: 0.9rem;
+  padding: 0 1rem;
+  display: flex;
+  font-size: 1rem;
+}
+.category-content_a {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0px 0px 10px #777;
+  color: #695f5f;
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.category-content_a h2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.chantiers_details {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+}
+
+.chantiers_details a {
+  width: 13rem;
+  height: 13rem;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chantiers_details img {
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+}
+.chantiers_details p {
+  margin: 1rem;
+  /* background-color: green; */
+  text-shadow: rgb(156, 156, 150) 1px 0 10px;
+  text-align: center;
+}
+
+.action {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: white; */
+}
+
+.btn {
+  background-color: rgb(255, 0, 0);
+
+  font-size: 1rem;
+  border: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0.4rem;
+  text-decoration: none;
+  color: #695f5f;
+}
+.btn:hover {
+  background-color: rgb(255, 4, 4);
+  color: #ffffff;
+}
+.btn-primary {
+  background-color: white;
+  font-weight: 700;
+  border-radius: 3px;
+  margin: 0px 5px;
+}
+.btn-primary:hover {
+  background-color: rgb(0, 204, 10);
+
+}
+/* ////////////////////////////////////////////////////////footer */
+
+footer {
+  height: 26.8rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer_end {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 1.5em;
+}
+.index_contact_right_logo_footer_end {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #ddd; */
+  color: white;
+  font-size: 1.5em;
+}
+
+.index_header_tittle_footer_end {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  /* background-color: lime; */
+}
+
+.footer_menu {
+  height: 13rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_menu ul {
+  height: 5rem;
+  display: flex;
+  flex-flow: row wrap;
+  width: 82%;
+  justify-content: center;
+}
+.footer_menu ul a {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 25px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 400;
+}
+
+.index_header_tittle_h1_footer_end {
+  height: 5rem;
+  width: 100%;
+  font-size: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  align-items: center;
+}
+
+.index_header_tittle_h1 {
+  display: none;
+}
+
+.index_header_tittle_footer_end {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.index_header_tittle_footer_end h1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.index_header_tittle_h2_footer_end {
+  height: 4rem;
+  width: 100%;
+  font-size: 30px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}
+
+.index_header_tittle_h2_footer_end h2 {
+  /* height: auto; */
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  letter-spacing: 0.09rem;
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+.copyright {
+  height: 7em;
+  width: 100%;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+  letter-spacing: 0.09rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+.index_contact_right_logo_lien_footer_end {
+  height: 100%;
+  width: 13%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+}
+.index_contact_right_logo_lien_footer_end a {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  display: flex;
+}
